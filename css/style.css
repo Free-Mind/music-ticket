@@ -1,0 +1,402 @@
+/*
+	Name:style.css
+	Date:2015/3/18
+*/
+
+/* 响应式布局 */
+
+@media (max-width: 768px) {
+	/* 轮播 */
+	.carousel{
+		height:300px;
+	}
+	.carousel .item {
+		height: 300px;
+	}
+
+	.carousel img {
+		min-height: 300px;
+	}
+
+	.carousel-caption p {
+		font-size: 16px;
+		line-height: 1.4;
+	}
+}
+
+@media (min-width: 768px) {
+	.carousel{
+		height:500px;
+	}
+
+	.carousel-inner .item{
+		width:100%;
+		height:500px;
+	}
+	
+	.carousel img {
+		min-height: 500px;
+	}
+	
+}
+
+body{
+	font-family:"Microsoft Yahei";
+	padding:0;
+	margin:0;
+}
+
+/* 轮播 */
+.carousel{
+	font-family:"Microsoft Yahei";
+}
+.carousel-inner .item img{
+	width:100%;
+}
+/* 导航条 */
+#navbar{
+	margin-bottom:0px;
+	height:50px;
+	background-color:#eee;
+}
+#navbar #collapse{
+	background-color:#eee;
+}
+/* 简介 */
+#introduction .intro-item{
+	padding:40px 0 20px 0;
+	text-align:center;
+}
+#introduction .intro-item i{
+	font-size:50px;
+}
+#introduction .intro-item .icon1{
+	color:#37A9DA;
+}
+#introduction .intro-item .icon2{
+	color:#FF5959;
+}
+#introduction .intro-item .icon3{
+	color:#3AE470;
+}
+#introduction .intro-item p{
+	margin-top:30px;
+}
+/*  座位区块 */
+#seats{
+	background-color:#B33A30;
+	padding:50px 0;
+}
+#seats #stage{
+	margin:auto auto;
+	margin-bottom:30px;
+	width:200px;
+	text-align:center;
+	height:50px;
+	line-height:50px;
+	background:#fff;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+#seats #seats-container{
+	margin:auto;
+	overflow: hidden;
+	width: 265px;
+}
+#seats #total-money{
+	background-color:#28B881;
+	text-align:center;
+	width:100%;
+	padding:8px 10px;
+	border-radius: 5px;
+	color:#FFF;
+	margin:15px auto;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+#seats .seat-item{
+	width:20px;
+	height:20px;
+	float:left;
+	background-color:#fff;
+	margin:3px 2px 3px 2px;
+	text-align:center;
+}
+#seats .clear{
+	clear:both;
+}
+#seats #seat-choosen{
+	padding-top: 40px;
+}
+#seats #seat-choosen p{
+	text-align:center;
+	width:200px;
+	padding:10px 0;
+	margin: 0 auto 20px auto;
+	background-color:#D3B144;
+	color:#FFF;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+#seats #seat-choosen li{
+	padding: 12px 8px 10px 17px;
+	background-color: #D3B144;
+	width: 150px;
+	float: left;
+	margin: 10px 10px;
+	list-style: none;
+	color:#FFF;
+	text-align: center;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	overflow:hidden;
+}
+#seats #seat-choosen li span{
+	float:right;
+}
+#seats #seat-choosen li span img{
+	width:20px;
+	opacity:0.1;
+	cursor:pointer;
+	position: relative;
+	top: -2px;
+}
+#seats #seats-container .side{
+	margin: auto;
+	width: 168px;
+}
+#seats #seats-container .middle{
+	margin: auto;
+	width: 265px;
+}
+#seats .group-names .group-name  {
+	width:30%;
+	text-align:center;
+	float:left;
+	margin: 20px 0;
+	padding: 20px 0;
+	background-color:#FFF;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+#seats .group-names .group-name:hover{
+	background-color:#FDD18D;
+	cursor:pointer;
+}
+#seats .group-names .group-name  p{
+	margin:0px;
+}
+#seats .group-names .aside  {
+	width:5%;
+	float:left;
+	height:1px;
+}
+#seats .back{
+	padding:10px 50px;
+	margin:auto;
+	width:200px;
+	text-align:center;
+	background-color:#2AB646;
+	cursor:pointer;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	color:#FFF;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+#seats #personal-info .text{
+	max-width:300px;
+	margin:15px auto;
+	width:115%;
+}
+#seats #personal-info form{
+	max-width:300px;
+	margin:20px auto;
+}
+#seats #personal-info #buy-again-form{
+	max-width:300px;
+}
+#seats #personal-info #again-button{
+	width:300px;
+	position: relative;
+	left: 10px;
+	margin: 20px 0px 10px 0px;
+}
+#seats #buy-again-form ul{
+	position: relative;
+	left: -40px;
+}
+#seats #personal-info .button{
+	width:100%;
+	margin:10px auto;
+}
+#seats #personal-info p{
+	width:100%;
+	text-align:center;
+	color:#FFF;
+	margin:0px auto;
+	padding: 0px 20px;
+}
+#seats #find-result{
+	position:relative;
+	left:-10px;
+}
+#seats #again-group .form-item{
+	position: relative;
+	left: 10px;
+	top: 5px;
+}
+#seats #personal-info .find-ticket{
+	max-width:300px;
+	margin:10px auto 10px auto;
+}
+#seats .seat-tip{
+	width:60px;
+	color:#FFF;
+	height:18px;
+	z-index:1;
+	position:absolute;
+	background-color:#2DD863;
+	font-size:10px;
+	line-height:18px;
+	text-align:center;
+}
+#seats .form-item{
+	overflow:hidden;
+}
+#seats .form-item .form-input{
+	float:left;
+	width:87%;
+}
+#seats .form-item .form-label{
+	float:left;
+	margin: 20px 5px;
+}
+#seats #find-form{
+	max-width: 300px;
+	margin: 20px auto;
+}
+#seats #find-result p{
+	margin:10px auto 20px 0;
+}
+#seats #find-result ul{
+	list-style:none;
+	width:380px;
+	margin:auto;
+	color:#FFF;
+	overflow:hidden;
+}
+#seats #find-result ul li{
+	padding: 10px 10px;
+	background-color: #D3B144;
+	width: 140px;
+	text-align: center;
+	float:left;
+	margin:10px 10px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+} 
+#seats #not-bought .items{
+	padding: 10px 10px;
+	background-color: #7774E8;;
+	text-align: center;
+	margin: 10px 10px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	overflow: hidden;
+}
+#seats #not-bought .title{
+	background: none !important;
+	padding: 0px !important;
+}
+#seats #not-bought .sid-content{
+	background: none !important;
+	padding: 0px !important;
+}
+#seats #not-bought .items .oid{
+	width: 230px;
+	float: left;
+	background: #598EEF;
+	padding: 5px 10px;
+}
+#seats #not-bought .items .choose{
+	float: left;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background: #C7C4C4;
+	padding: 15px 10px;
+	cursor: pointer;
+}
+#seats #not-bought .items .sid{
+	margin: 5px;
+	background: #DF3B3B;
+	padding: 8px 10px;
+	width: 120px;
+	float: left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+#seats #not-bought .delete{
+	background: #FA4242;
+	padding: 8px 10px;
+	text-align: center;
+	width: 260px;
+	margin: auto;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	cursor: pointer;
+}
+#seats #not-bought .none-result{
+	position:relative;
+	left:-10px !important;
+}
+#seats #find-result .none-result{
+	margin: 20px auto;
+	width: 100%;
+	padding: 5px 10px;
+	background-color: #B8B128;
+	width: 300px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	position: relative;
+	left: 10px;
+}
+#seats #find-result .not-bought-item{
+	overflow: hidden;
+	width: 300px;
+	background: rgba(255,255,255,0.2);
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin: 20px 0px 10px 10px;
+	padding: 10px 10px 20px 10px;
+}
+
+/* 底部版权 */
+.foot{
+	text-align:center;
+	padding-top:40px;
+	font-size:15px;
+	color:#aaa;
+	background-color:#333;
+	min-height:100px;
+}
+.foot a{
+	color:#aaa;
+	text-decoration:none;
+}
+
+/* font-awesome */
+.fa{
+	line-height: 20px !important;
+}
